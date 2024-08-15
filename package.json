@@ -1,14 +1,18 @@
 {
-    "name": "Realtime-tracker",
-    "version": "1.0.0",
-    "description": "A real-time tracking application using WebSockets",
-    "main": "App.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "dependencies": {
-    }
+  "name": "realtime-tracker",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "leaflet": "^1.9.4",
+    "socket.io": "^4.7.5"
+  }
 }
